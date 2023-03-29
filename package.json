@@ -1,0 +1,25 @@
+{
+  "name": "seedstarter",
+  "version": "1.0.0",
+  "description": "SeedStarter Bootstrap web app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "npm run lite"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-chaney3/seedstarter.git"
+  },
+  "author": "James Chaney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-chaney3/seedstarter/issues"
+  },
+  "homepage": "https://github.com/j-chaney3/seedstarter#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
