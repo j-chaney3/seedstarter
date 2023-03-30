@@ -1,14 +1,16 @@
-$color-primary: red;
-$color-secondary: yellow;
+$color-dk-green: #3c6255; //rgb(60,98,85)
+$color-md-green: #61876e; //rgb(97,135,110)
+$color-lt-green: #a6bb8d; //rgb(166,187,141)
+$color-earth: #eae7b1;    //rgb(234,231,177)
 
 h2 {
-    color: $color-primary;
+    color: $color-dk-green;
 }
 
 h2 {
     
     p { 
-        color: $color-secondary;
+        color: $color-md-green;
     }
 }
 
