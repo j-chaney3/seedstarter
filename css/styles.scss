@@ -9,7 +9,7 @@ $font-header: "Patua One";
 }
 body {
     
-    font-family: "Open Sans";
+    font-family: sans-serif;
 }
 
 .seed {
@@ -21,14 +21,21 @@ body {
 }
 
 .jumbotron {
-    background-image: linear-gradient(to bottom, $color-dk-green, $color-lt-green);
+    background-color: $color-dk-green;
     margin-bottom: 0;
     color: $color-earth;
     border-radius: 0;
-    padding: 15px; 
+    padding: 10px;
+    font-family: $font-header;
 }
 
 .navbar {
-    background-image: linear-gradient(to right, $color-dk-green, $color-md-green, $color-lt-green, $color-earth);
+background: #3c6255;
+background: linear-gradient(to right,#3c6255 0%, #a6bb8d 95%);
+background: -webkit-linear-gradient(to right,#3c6255 0%, #a6bb8d 95%);
+background: -moz-linear-gradient(to right,#3c6255 0%, #a6bb8d 95%);
 }
+
+
+
 
