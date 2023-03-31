@@ -1,5 +1,21 @@
-h2 {
-  color: #3c6255; }
+.seed-starter-text {
+  font-family: "Patua One"; }
 
-h2 p {
-  color: #61876e; }
+body {
+  font-family: "Open Sans"; }
+
+.seed {
+  color: #eae7b1; }
+
+.starter {
+  color: #a6bb8d; }
+
+.jumbotron {
+  background-image: linear-gradient(to bottom, #3c6255, #a6bb8d);
+  margin-bottom: 0;
+  color: #eae7b1;
+  border-radius: 0;
+  padding: 15px; }
+
+.navbar {
+  background-image: linear-gradient(to right, #3c6255, #61876e, #a6bb8d, #eae7b1); }
