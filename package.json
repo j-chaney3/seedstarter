@@ -12,10 +12,9 @@
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* public/fonts",
     "imagemin": "imagemin img/* -o public/img",
-    "usemin": "usemin index.html -d public --htmlmin -o public/index.html", 
+    "usemin": "usemin index.html -d public --htmlmin -o public/index.html",
     "clean": "rimraf public",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
-
   },
   "repository": {
     "type": "git",
@@ -38,9 +37,9 @@
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
