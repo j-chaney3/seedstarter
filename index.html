@@ -20,34 +20,35 @@
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid d-none d-sm-block text-nowrap">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2 class="seed-starter-text ml-auto">Seed<span class="starter">Starter</span></h2>
                 </div>
-                <div class="col ml-3">
-                    <p>A comprehensive guide to urban gardening.</p> 
+                <div class="col ml-5">
+                    <p class="pl-3">A comprehensive guide to urban gardening.</p>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 
 
     <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <div class="container text-nowrap">
-            <a class="navbar-toggler border-0 ml-3" type="button" data-toggle="collapse" data-target="#ss-nav">
-                <h4 class="seed-starter-text seed"><i class="fa fa-leaf" style="color: #3c6255"></i> Seed<span class="starter">Starter</span></h4>
+            <a class="navbar-toggler border-0 " type="button" data-toggle="collapse" data-target="#ss-nav">
+                <h4 class="seed-starter-text seed"><i class="fa fa-leaf" style="color: #3c6255"></i> Seed<span
+                        class="starter">Starter</span></h4>
             </a>
-            
+
             <div class="collapse navbar-collapse" id="ss-nav">
-                
+
                 <ul class="navbar-nav text-nowrap">
                     <li class="nav-item active">
                         <a class="nav-link" href="#"><i class="fa fa-leaf fa-1x"></i> Getting Started</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">
-                        <i class="fa fa-sun-o fa-1x"></i> Seasons</a>
+                            <i class="fa fa-sun-o fa-1x"></i> Seasons</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fa fa-list fa-1x"></i> Planning</a>
@@ -58,8 +59,8 @@
                     </li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    
-                        <i class="fa fa-sign-in"></i> Login
+
+                    <i class="fa fa-sign-in"></i> Login
 
                 </span>
             </div>
@@ -67,30 +68,207 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae ligula aliquet, eleifend libero id,
-                consequat nisi. Aenean commodo ut lacus interdum maximus. Praesent dignissim ut lorem id volutpat. Duis
-                nec tempus nibh, sit amet posuere ex. Curabitur nec neque eu purus fermentum dignissim in at mauris.
-                Cras vitae malesuada purus, eu sodales tortor. Proin sit amet augue cursus, iaculis felis in, porttitor
-                lacus. Sed luctus, ante molestie pretium pulvinar, erat sapien lobortis ligula, id vulputate arcu ex eu
-                sem. Nulla in mattis mauris. Morbi et sapien vehicula, malesuada velit nec, sollicitudin libero. Morbi
-                ullamcorper ligula eget ex sodales lacinia. Integer tempor mattis tristique. Nam rutrum ligula quis
-                lacus aliquet placerat. Nullam vitae nulla quis ante venenatis euismod vel ac velit. Maecenas urna
-                libero, gravida non porta ut, finibus eget urna. Sed eu dolor posuere, tempus arcu vel, convallis mi.
+        <div class="row row-content">
+            <div class="col-12">
+                <p class="ml-auto text-justify">
+                <p class="seed-starter-text">Why Garden?</p>
+                <p>
+                    A personal garden can offer a multitude of benefits for both physical and mental well-being. One of
+                    the most significant advantages of having a garden is access to fresh produce, which can be grown
+                    without pesticides and chemicals. This provides a source of healthy and nutritious food that is
+                    often not available in grocery stores. Gardening can also be a stress-relieving activity that
+                    promotes relaxation and mindfulness, as well as a form of exercise that improves cardiovascular
+                    health, strength, and flexibility. Furthermore, gardening allows for a deeper connection to nature
+                    and can provide opportunities to learn about plant biology, sustainable agriculture, and
+                    environmental science. Overall, gardening can be a rewarding and enriching hobby that benefits both
+                    individuals and the environment.
+                </p>
             </div>
-            <div class="col-4">
-                Quisque ex lectus, fermentum a ipsum sit amet, suscipit pretium ex. Donec et augue nisl. Pellentesque
-                lacus augue, dignissim facilisis massa in, fermentum finibus neque. Sed sollicitudin, odio et malesuada
-                egestas, nulla mauris convallis libero, quis tincidunt ligula nisl in massa. Proin pretium, libero id
-                commodo cursus, purus arcu varius ipsum, vitae tempor felis erat quis tellus. Maecenas fermentum odio ut
-                tellus pulvinar pulvinar. Etiam eu ante faucibus, maximus ex sed, lacinia leo.
+            <div class="col-12">
+                <p class="seed-starter-text">Frequently Asked Questions</p>
             </div>
-            <div class="col-4">
-                Sed ultricies feugiat congue. Morbi interdum blandit mollis. Ut fermentum libero non bibendum tincidunt.
-                Sed id massa nisl. Etiam vulputate erat vel enim condimentum euismod. Integer suscipit metus ut pulvinar
-                fringilla. Fusce eget justo ex. In hac habitasse platea dictumst. Curabitur ante massa, tincidunt ut
-                dolor nec, porta rhoncus diam.
+            <div class="row">
+                <div class="col">
+                    <div class="accordion" id="gardenFaqs">
+                        <div class="card" style="width:100%">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        1. What is the best time of year to start a garden?
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    The best time to start a garden depends on your climate and the type of plants you
+                                    want to grow. In general, spring and fall are good times to start planting, while
+                                    summer
+                                    can be more challenging due to the heat.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        2. How much space do I need for a personal garden?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    The amount of space you need for a personal garden depends on what you want to grow
+                                    and how much you want to harvest. Even a small balcony or patio can be enough to
+                                    grow some herbs or vegetables in containers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        3. What type of soil is best for a garden?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    The best soil for a garden is rich in nutrients and well-draining. Adding organic
+                                    matter, such as compost, can help improve the quality of the soil.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        4. How much sunlight do my plants need?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    Most plants need at least six hours of sunlight per day to thrive. However, some
+                                    plants, such as leafy greens, can tolerate partial shade.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        5. How often should I water my garden?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    The frequency of watering your garden depends on the type of plants, soil type, and climate. In general, most plants need regular watering, but it's important not to overwater, which can lead to root rot.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                        6. What tools do I need to start a garden?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    Basic gardening tools include a hoe, spade, rake, trowel, and pruning shears. Additional tools may be necessary depending on the size and type of garden you want to create. Many community gardens will provide the necessary tools.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        7. What types of plants should I grow?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    The types of plants you should grow depend on your personal preferences, climate, and space available. Some easy-to-grow plants for beginners include tomatoes, lettuce, peppers, and herbs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        8. How can I prevent pests and diseases in my garden?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    Good gardening practices, such as regular weeding, crop rotation, and maintaining good soil health, can help prevent pests and diseases. Additionally, using natural pest control methods and avoiding chemical pesticides can be effective.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingNine">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseNine" aria-expanded="false"
+                                        aria-controls="collapseNine">
+                                        9. Can I garden without using chemical fertilizers?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    Yes, using organic methods, such as adding compost or natural fertilizers, can provide the necessary nutrients for healthy plant growth without the use of chemical fertilizers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTen">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-faq btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
+                                        aria-controls="collapseTen">
+                                        10. How do I know when to harvest my plants?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                data-parent="#gardenFaqs">
+                                <div class="card-body">
+                                    The timing of harvesting depends on the type of plant and can vary based on factors such as climate and soil. In general, plants are ready to harvest when they are mature and have reached the desired size or color.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
