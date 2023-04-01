@@ -10,6 +10,8 @@ $font-header: "Patua One";
 body {
     
     font-family: sans-serif;
+    font-size: 1rem;
+
 }
 
 .seed {
@@ -35,6 +37,28 @@ background: linear-gradient(to right,#3c6255 0%, #a6bb8d 95%);
 background: -webkit-linear-gradient(to right,#3c6255 0%, #a6bb8d 95%);
 background: -moz-linear-gradient(to right,#3c6255 0%, #a6bb8d 95%);
 }
+
+.card {
+    border: none;
+    padding: 0px;
+}
+
+.card-header {
+    border: none;
+    padding: 0px;
+    background-color: white;
+}
+
+.btn-faq {
+    a:hover {
+        color: $color-md-green;
+    }
+    color: $color-lt-green;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
 
 
 
