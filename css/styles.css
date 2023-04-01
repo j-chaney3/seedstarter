@@ -1,19 +1,15 @@
 .seed-starter-text {
-  font-family: "Patua One";
-}
+  font-family: "Patua One"; }
 
 body {
   font-family: sans-serif;
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .seed {
-  color: #eae7b1;
-}
+  color: #eae7b1; }
 
 .starter {
-  color: #a6bb8d;
-}
+  color: #a6bb8d; }
 
 .jumbotron {
   background-color: #3c6255;
@@ -21,35 +17,27 @@ body {
   color: #eae7b1;
   border-radius: 0;
   padding: 10px;
-  font-family: "Patua One";
-}
+  font-family: "Patua One"; }
 
 .navbar {
   background: #3c6255;
   background: linear-gradient(to right, #3c6255 0%, #a6bb8d 95%);
   background: -webkit-linear-gradient(to right, #3c6255 0%, #a6bb8d 95%);
-  background: -moz-linear-gradient(to right, #3c6255 0%, #a6bb8d 95%);
-}
+  background: -moz-linear-gradient(to right, #3c6255 0%, #a6bb8d 95%); }
 
 .card {
   border: none;
-  padding: 0px;
-}
+  padding: 0px; }
 
 .card-header {
   border: none;
   padding: 0px;
-  background-color: white;
-}
+  background-color: white; }
 
 .btn-faq {
   color: #a6bb8d;
-  font-style: italic;
-  font-size: medium;
   font-weight: bold;
-  padding-left: 20px;
-}
-
-.btn-faq:hover {
-  color: #61876e;
-}
+  font-size: medium;
+  margin-left: 20px; }
+  .btn-faq a:hover {
+    color: #61876e; }
