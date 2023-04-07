@@ -1,5 +1,6 @@
 .seed-starter-text {
-  font-family: "Patua One"; }
+  font-family: "Patua One";
+  color: #61876e; }
 
 body {
   font-family: sans-serif;
@@ -41,3 +42,15 @@ body {
   margin-left: 20px; }
   .btn-faq a:hover {
     color: #61876e; }
+
+.row-content {
+  margin-top: 20px; }
+
+.faq-text {
+  margin-left: 25px;
+  font-size: .9rem;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+a {
+  color: #a6bb8d; }
