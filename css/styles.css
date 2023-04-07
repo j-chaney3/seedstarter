@@ -4,7 +4,8 @@
 
 body {
   font-family: sans-serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  padding-bottom: 50px; }
 
 .seed {
   color: #eae7b1; }
